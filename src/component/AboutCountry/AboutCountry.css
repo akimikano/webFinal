@@ -1,0 +1,68 @@
+.AboutCountry{
+    width: 90%;
+
+    background-color: #33334B;
+}
+
+.Information {
+    display: flex;
+    min-height: 325px;
+    max-height: 326px;
+}
+
+
+.TextInformation{
+    width: 50%;
+
+    max-height: 292px;
+
+    padding: 20px;
+
+    margin-bottom: 10px;
+}
+
+.FlagPhoto{
+    width: 50%;
+    padding: 10px;
+}
+
+.FlagPhoto img {
+    width: 100%;
+    height: auto;
+}
+
+.allInformation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-right: 20px;
+}
+
+.allInformation button {
+    width: 100px;
+
+    height: 30px;
+    cursor: pointer;
+}
+
+.moreInformation{
+    padding-left: 10px;
+    margin-bottom: 10px;
+
+    width: 60%;
+}
+
+.moreInformation p {
+    text-align: left;
+    margin: 0;
+    color:white;
+}
+
+.CountryName{
+    margin: 0;
+}
+
+.Bolder{
+    font-size: 30px;
+}

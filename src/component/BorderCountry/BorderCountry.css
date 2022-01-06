@@ -1,0 +1,36 @@
+
+.NeighborCountry{
+    width: 865px;
+
+    height: 206px;
+
+    overflow-y: auto;
+
+    display: flex;
+
+    margin: 0 10px;
+}
+
+.neighborCountryItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 5px;
+    margin-right: 5px;
+    min-width: 350px;
+}
+
+.neighborCountryItem img {
+    display: block;
+    margin: 0 auto;
+
+    max-height: 155px;
+    width: auto;
+    max-width: 300px;
+}
+
+.neighborCountryItem p {
+    margin: 0;
+    color: white;
+}

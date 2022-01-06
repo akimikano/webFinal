@@ -1,0 +1,36 @@
+.ListCountry{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    min-height: 40px;
+    width: 90%;
+
+    margin: 0 auto 5px auto;
+    padding: 5px;
+
+    background-color: #F0F2FA;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+}
+
+.ListCountry:hover {
+    background-color: black;
+}
+
+.ListCountry:hover p {
+    color: white;
+}
+
+.ListCountry img {
+    height: 35px;
+    width: 45px;
+
+    margin-right: 5px;
+}
+
+.ListCountry p {
+    margin: 0;
+}
